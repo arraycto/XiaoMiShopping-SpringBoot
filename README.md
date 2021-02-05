@@ -1,2 +1,6 @@
-# XiaoMiShopping-SpringBoot
-高仿小米商城（别名：统一哥小店）PC版，是Vue + SpringBoot的前后端分离项目，已完成了商城系统的大部分，包括首页门户、商品分类、首页轮播、商品展示、购物车、地址管理等部分。商城剩余部分和管理端还在开发中。
+# 主要技术栈
+前端:vue2 + vue-router + vuex + axios + sass （vue-cli4搭建的）<br>
+后端:Springboot + Mybatis + MySQL + jwtToken 
+
+### 启动
+> 使用数据库管理工具（如DataGrip或navicat）建立名为xiaomi的数据库,配置用户名密码的文件是JDBC.properties,可按自己需要修改username和password,位于\src\main\resources目录下。然后运行xiaomi.sql脚本文件建立数据库表并插入数据。
